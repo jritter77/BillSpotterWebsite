@@ -1,0 +1,59 @@
+extends layout
+
+block content
+  header
+    img(src='images/icon.png' width='160' height='160')
+    div
+      h1 BillSpotter 
+      p Bill Tracking App
+  
+  div(id='container')
+    section
+    
+      div(id='screenshot_viewer')
+
+      div(class='bubble') 
+        h2 About: 
+        p. 
+          BillSpotter is an app designed to help keep track of due bills and payments.
+        p. 
+          BillSpotter allows you to cross bills off your list when you make a payment, and will 
+          automatically generate a new bill for the next payment occurance.
+        p. 
+          BillSpotter was designed with anonymity and ease of use in mind, and therefore does not require 
+          any sensitive information or linking of accounts. 
+
+        
+      
+
+    section
+      div(class='bubble') 
+        h2 Features:
+        ul 
+          li Keeping track of bills is a breeze thanks to the Calendar that visually displays when bills are due!
+          li See a breakdown of your monthly bills using the Month Summary page!
+          li Easily check bills off your list and BillSpotter will automatically generate the next occurance!
+
+      div(class='bubble') 
+        h1 How to get the app: 
+
+        h2 Open with Expo Go: 
+        ol 
+          li Download Expo Go from play store on your mobile device.
+          li Navigate to the 
+            a(href='https://expo.dev/@jr550/BillSpotter?serviceType=classic&distribution=expo-go' target='_blank') project page
+          li Tap the "Open in Expo Go" button on the project page.
+          li When opening Expo Go again, the app should appear under the "Recently opened" section. Tap this to re-launch the app.
+        
+        h2 Download from Google Play Store: 
+        p Coming Soon!
+
+
+      
+
+  footer 
+    p App and Website developed by: 
+    a(href="https://me.jrive.space" target="_blank") Jake Ritter
+    p Copyright - 2023
+
+  script(src="javascripts/ScreenshotViewer.js"); 
