@@ -6,4 +6,9 @@ router.get("/", function (req, res, next) {
   res.render("index", { title: "BillSpotter" });
 });
 
+/* GET privacy policy */
+router.get("/privacy", function (req, res, next) {
+  res.render("privacy", { title: "BillSpotter" });
+});
+
 module.exports = router;

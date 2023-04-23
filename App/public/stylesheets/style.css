@@ -44,8 +44,27 @@ footer a {
 header {
   background: white;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   margin-bottom: 5%;
+}
+
+header a {
+  text-align: right;
+  margin: 16px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+header div {
+  flex: 1;
 }
 
 h1 {
